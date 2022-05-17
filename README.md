@@ -16,32 +16,31 @@ You can easily add it as a module to your own app.
 
 #### Use Git Clone
 ``` shell
-git https://github.com/bensonruan/webcam-easy.git
+git clone https://github.com/eduardosmarcal/webcam-easy.git
 ```
 
 #### OR Use NPM
-[![NPM](https://nodei.co/npm/webcam-easy.png?compact=true)](https://nodei.co/npm/webcam-easy/)
 ``` shell
-npm install webcam-easy
+npm install @eduardosmarcal/webcam-easy
 ```
 
 ## Usage
 
 #### 1. Include script tag in html <head>
 ```html
-<script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/@eduardosmarcal/webcam-easy/dist/webcam-easy.min.js"></script>
 ```
     or Import into javascript
 ``` js
-import Webcam from 'webcam-easy';
+import Webcam from '@eduardosmarcal/webcam-easy';
 ```
 
 
 #### 2. Place elements in HTML
 ```html
 <video id="webcam" autoplay playsinline width="640" height="480"></video>
-<canvas id="canvas" class="d-none"></canvas>
-<audio id="snapSound" src="audio/snap.wav" preload = "auto"></audio>
+<canvas id="canvas" style="display: none;"></canvas>
+<audio id="snapSound" src="audio/snap.wav" preload="auto"></audio>
 ```
 
 #### 3. Call constructor in javascript
@@ -65,7 +64,7 @@ webcam.start()
 
 #### 5. Take Photo
 ``` js
-var picture = webcam.snap();
+let picture = webcam.snap();
 ``` 
 
 #### 6. Stop Webcam 
