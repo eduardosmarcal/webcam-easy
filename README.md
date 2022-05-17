@@ -91,6 +91,6 @@ webcam.stop();
 
 ## Properties
 
-- facingMode : 'user' or 'enviroment'
+- facingMode : 'user' or 'environment'
 - webcamList : all available camera device
 - webcamCount : number of available camera device
