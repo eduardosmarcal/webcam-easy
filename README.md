@@ -1,5 +1,5 @@
-# Webcam Easy JS
-This is a javascript library for accessing webcam stream and taking photos.
+# Webcam Easy TS/JS
+This is a TypeScript/JavaScript library for accessing webcam stream and taking photos.
 
 You can easily add it as a module to your own app.
 
@@ -30,7 +30,7 @@ npm install @eduardosmarcal/webcam-easy
 ```html
 <script type="text/javascript" src="https://unpkg.com/@eduardosmarcal/webcam-easy/dist/webcam-easy.min.js"></script>
 ```
-    or Import into javascript
+    or import into typescript/javascript
 ``` js
 import Webcam from '@eduardosmarcal/webcam-easy';
 ```
