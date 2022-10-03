@@ -1,2 +1,3 @@
+import Webcam from "./webcam";
 export * from "./types";
-export * from "./webcam";
+export default Webcam;
